@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memahami Desil — Panduan DTSEN</title>
+  <meta name="description" content="Penjelasan tentang sistem desil DTSEN, perbedaan desil nasional/provinsi/kabupaten, dan contoh kasus konkret.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__brand">
+        <span class="site-header__logo" aria-label="Logo BPS"><img src="assets/img/logo-bps.png" alt="Logo Badan Pusat Statistik"></span>
+        <div>
+          <div class="site-header__title">Panduan DTSEN</div>
+          <div class="site-header__subtitle">Untuk Desa</div>
+        </div>
+      </a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span class="menu-toggle__icon"><span></span></span>
+        Menu
+      </button>
+    </div>
+  </header>
+
+  <div class="site-nav__overlay" aria-hidden="true"></div>
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <ul class="site-nav__list">
+      <li class="site-nav__item"><a href="index.html" class="site-nav__link"><span class="site-nav__num">00</span>Beranda</a></li>
+      <li class="site-nav__item"><a href="dtsen.html" class="site-nav__link"><span class="site-nav__num">01</span>DTSEN dalam 5 Menit</a></li>
+      <li class="site-nav__item"><a href="desil.html" class="site-nav__link is-active"><span class="site-nav__num">02</span>Memahami Desil</a></li>
+      <li class="site-nav__item"><a href="kemiskinan.html" class="site-nav__link"><span class="site-nav__num">03</span>Indikator Kemiskinan</a></li>
+      <li class="site-nav__item"><a href="stunting.html" class="site-nav__link"><span class="site-nav__num">04</span>Kemiskinan &amp; Stunting</a></li>
+      <li class="site-nav__item"><a href="musdes.html" class="site-nav__link"><span class="site-nav__num">05</span>Panduan Musdes</a></li>
+      <li class="site-nav__item"><a href="tanya-jawab.html" class="site-nav__link"><span class="site-nav__num">06</span>Tanya-Jawab &amp; Glosarium</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__inner">
+        <div class="page-hero__eyebrow">Bagian 02</div>
+        <h1>Memahami Desil</h1>
+        <p class="page-hero__lead">Konsep desil adalah jantung sistem DTSEN. Desil menentukan siapa yang berhak menerima bantuan apa. Mari kita pahami dengan jelas.</p>
+        <div class="page-hero__meta">
+          <span class="page-hero__meta-item">Estimasi 5 menit baca</span>
+          <span class="page-hero__meta-item">Banyak contoh kasus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <div class="prose">
+
+        <h2>Apa itu desil?</h2>
+        <p><strong>Desil</strong> adalah cara membagi masyarakat menjadi 10 kelompok berdasarkan tingkat kesejahteraan, dari yang paling miskin hingga yang paling mampu. Setiap kelompok berisi 10% penduduk.</p>
+
+        <p>Bayangkan kita mengurutkan seluruh keluarga di Indonesia dari yang paling miskin di paling kiri, sampai yang paling kaya di paling kanan. Kemudian kita bagi barisan itu menjadi 10 bagian yang sama besar. Setiap bagian inilah yang disebut <strong>desil</strong>.</p>
+
+        <div class="decile-bar">
+          <div class="decile-bar__cell" style="background:#0a3a3a;">1</div>
+          <div class="decile-bar__cell" style="background:#134e4a;">2</div>
+          <div class="decile-bar__cell" style="background:#0f766e;">3</div>
+          <div class="decile-bar__cell" style="background:#0d9488;">4</div>
+          <div class="decile-bar__cell" style="background:#14b8a6;">5</div>
+          <div class="decile-bar__cell" style="background:#5eead4;">6</div>
+          <div class="decile-bar__cell" style="background:#99f6e4; color:#0a3a3a;">7</div>
+          <div class="decile-bar__cell" style="background:#ccfbf1; color:#0a3a3a;">8</div>
+          <div class="decile-bar__cell" style="background:#e8d9b0; color:#0a3a3a;">9</div>
+          <div class="decile-bar__cell" style="background:#c89933; color:#0a3a3a;">10</div>
+        </div>
+        <div class="decile-bar__legend">
+          <span>Paling Miskin</span>
+          <span>Paling Mampu</span>
+        </div>
+
+        <p>Jadi:</p>
+        <ul>
+          <li><strong>Desil 1</strong> = 10% penduduk paling miskin di Indonesia</li>
+          <li><strong>Desil 2</strong> = 10% berikutnya, sedikit di atas desil 1</li>
+          <li><strong>...</strong> dan seterusnya...</li>
+          <li><strong>Desil 10</strong> = 10% penduduk paling mampu</li>
+        </ul>
+
+        <div class="callout">
+          <span class="callout__label">Perlu Diingat</span>
+          <p style="margin-bottom: 0;">Semakin <strong>rendah</strong> angka desil, semakin <strong>besar</strong> peluang menerima bantuan sosial. Penerima bantuan sosial pada umumnya berasal dari desil 1 sampai desil 4.</p>
+        </div>
+
+        <h2>Bagaimana sistem menentukan desil?</h2>
+        <p>BPS dan Kemensos tidak menentukan desil hanya dari satu indikator. Sistem mempertimbangkan banyak faktor sekaligus:</p>
+
+        <ul>
+          <li><strong>Pendapatan dan pengeluaran</strong> rumah tangga</li>
+          <li><strong>Kondisi rumah</strong>: jenis lantai, dinding, atap, sumber air, sanitasi</li>
+          <li><strong>Aset yang dimiliki</strong>: kendaraan bermotor, tanah, peralatan rumah</li>
+          <li><strong>Pendidikan kepala keluarga</strong></li>
+          <li><strong>Status pekerjaan</strong> dan jenis pekerjaan</li>
+          <li><strong>Jumlah tanggungan</strong> dalam keluarga</li>
+          <li><strong>Akses layanan dasar</strong>: kesehatan, pendidikan</li>
+        </ul>
+
+        <p>Sistem juga memeriksa silang dengan data administratif:</p>
+        <ul>
+          <li>Data Dukcapil (status kependudukan)</li>
+          <li>Data BPJS Ketenagakerjaan</li>
+          <li>Pajak kendaraan dari Samsat</li>
+          <li>Data pelanggan listrik PLN</li>
+        </ul>
+
+        <p>Itulah mengapa kadang ada keluarga yang merasa miskin tetapi desilnya naik. Misalnya, baru saja membeli sepeda motor sehingga terdeteksi di Samsat &mdash; sistem akan menganggap kondisi ekonominya membaik.</p>
+
+        <h2>Tiga level desil yang sering membingungkan</h2>
+        <p>Inilah bagian yang paling sering bikin kepala pusing: <strong>setiap orang punya tiga desil yang bisa berbeda</strong> &mdash; desil nasional, desil provinsi, dan desil kabupaten.</p>
+
+        <p>Mengapa bisa berbeda? Karena perbandingannya pada konteks yang berbeda.</p>
+
+        <div class="step-card">
+          <span class="step-card__num">N</span>
+          <div class="step-card__body">
+            <h4>Desil Nasional</h4>
+            <p>Membandingkan kesejahteraan keluarga ini dengan <strong>seluruh penduduk Indonesia</strong>. Ditentukan oleh Kemensos bersama BPS pusat.</p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <span class="step-card__num">P</span>
+          <div class="step-card__body">
+            <h4>Desil Provinsi</h4>
+            <p>Membandingkan keluarga ini dengan <strong>penduduk Provinsi Sumatera Selatan</strong> saja. Ditentukan oleh pemerintah provinsi bersama Dinsos provinsi.</p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <span class="step-card__num">K</span>
+          <div class="step-card__body">
+            <h4>Desil Kabupaten</h4>
+            <p>Membandingkan keluarga ini dengan <strong>penduduk Kabupaten Ogan Ilir</strong> saja. Ditentukan oleh pemerintah kabupaten bersama Dinsos kabupaten.</p>
+          </div>
+        </div>
+
+        <h2>Mengapa angkanya bisa berbeda?</h2>
+        <p>Mari kita ambil contoh konkret.</p>
+
+        <div class="case-study">
+          <div class="case-study__label">Contoh Kasus 1</div>
+          <h3>Keluarga Pak Hasan di Kabupaten Paser</h3>
+          <p>Pak Hasan adalah petani di salah satu desa di Kabupaten Paser. Pendapatan keluarganya sekitar Rp 1,5 juta per bulan untuk 4 orang anggota. Rumahnya semi-permanen.</p>
+          <p><strong>Desil Nasional:</strong> 3 (cukup miskin secara nasional)</p>
+          <p><strong>Desil Provinsi Kaltim:</strong> 4 (sebagian besar penduduk Kaltim kondisinya mirip atau lebih sulit)</p>
+          <p><strong>Desil Kabupaten Paser:</strong> 5 (di Paser, banyak yang lebih miskin dari Pak Hasan)</p>
+          <p>Pak Hasan adalah orang yang sama, tetapi <strong>angka desilnya berbeda di setiap level</strong> karena perbandingannya berbeda.</p>
+        </div>
+
+        <p>Ini bukan kesalahan sistem. Ini memang cara kerja DTSEN. Logikanya: kondisi yang dianggap "miskin" di Jakarta bisa berbeda dengan kondisi "miskin" di Paser, karena standar hidup, harga kebutuhan, dan struktur ekonomi setempat berbeda.</p>
+
+        <div class="callout callout--warning">
+          <span class="callout__label">Untuk Perangkat Desa</span>
+          <p style="margin-bottom: 0;">Saat membicarakan desil dengan warga, <strong>selalu perjelas level mana yang Anda maksud</strong>. Apakah desil nasional, provinsi, atau kabupaten? Ketidakjelasan ini sering memicu kesalahpahaman.</p>
+        </div>
+
+        <h2>Desil bersifat dinamis, bukan statis</h2>
+        <p>Hal penting lain: <strong>desil bisa berubah</strong>. Kondisi sosial-ekonomi keluarga selalu bergerak. Sistem DTSEN diperbarui secara berkala. Maka:</p>
+
+        <ul>
+          <li>Keluarga yang dulu di desil 2, bisa naik ke desil 3 jika pendapatan membaik</li>
+          <li>Keluarga yang dulu di desil 5, bisa turun ke desil 3 jika kepala keluarga sakit dan kehilangan pekerjaan</li>
+          <li>Keluarga baru (anak menikah dan pisah rumah) akan punya desilnya sendiri</li>
+        </ul>
+
+        <p>Inilah mengapa <strong>pemutakhiran data berkala sangat penting</strong>. Data DTSEN yang tidak pernah di-update akan kehilangan akurasinya seiring waktu.</p>
+
+        <h2>Bagaimana cara mengecek desil seseorang?</h2>
+        <p>Warga dapat memeriksa status DTSEN dan perkiraan desilnya melalui:</p>
+
+        <ul>
+          <li><strong>Website resmi</strong>: cekbansos.kemensos.go.id</li>
+          <li><strong>Aplikasi resmi</strong>: Cek Bansos (dapat diunduh di Play Store)</li>
+          <li><strong>Datang ke kantor desa</strong> &mdash; operator desa dapat membantu mengakses sistem SIKS-NG</li>
+        </ul>
+
+        <p>Kalau warga merasa desilnya tidak sesuai kondisi nyata, ada mekanisme <strong>"Sanggah"</strong> yang bisa diajukan melalui aplikasi Cek Bansos atau melalui perangkat desa. Lebih lanjut tentang ini akan dibahas di bagian Panduan Musdes.</p>
+
+        <h2>Apa selanjutnya?</h2>
+        <p>Anda sekarang paham bagaimana DTSEN memilah penduduk berdasarkan desil. Pertanyaan berikutnya: <em>"Apa sebenarnya yang dimaksud dengan 'miskin' dalam konteks DTSEN?"</em></p>
+
+        <p>Mari kita bedah indikator kemiskinan di bagian berikutnya.</p>
+
+        <nav class="page-nav" aria-label="Navigasi halaman">
+          <a href="dtsen.html" class="page-nav__link">
+            <span class="page-nav__direction">&larr; Sebelumnya</span>
+            <span class="page-nav__title">DTSEN dalam 5 Menit</span>
+          </a>
+          <a href="kemiskinan.html" class="page-nav__link page-nav__link--next">
+            <span class="page-nav__direction">Selanjutnya &rarr;</span>
+            <span class="page-nav__title">Indikator Kemiskinan</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__credit">Panduan DTSEN</div>
+      <div class="site-footer__org">BPS Kabupaten Paser<br>Disusun oleh Saidinur &mdash; 2026</div>
+      <div class="site-footer__disclaimer">Konten panduan ini disusun berdasarkan Inpres Nomor 4 Tahun 2025 tentang DTSEN, Permensos Nomor 3 Tahun 2025, dan materi sosialisasi resmi BPS &amp; Kemensos. Panduan ini bersifat edukasi dan tidak menggantikan ketentuan resmi yang berlaku. Bagian dari program Desa Cinta Statistik (Desa Cantik). Versi: 2026.</div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
