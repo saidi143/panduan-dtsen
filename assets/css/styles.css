@@ -456,11 +456,6 @@ main { padding: 2.5rem 0 4rem; }
 .case-study strong {
   color: #ffffff;
   font-weight: 700;
-  background: rgba(200, 153, 51, 0.22);
-  padding: 1px 5px;
-  border-radius: 3px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
 }
 .case-study em {
   color: var(--gold-soft, #d4a847);
