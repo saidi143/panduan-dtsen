@@ -453,6 +453,8 @@ main { padding: 2.5rem 0 4rem; }
   z-index: 1;
 }
 .case-study p:last-child { margin-bottom: 0; }
+.prose .case-study p strong,
+.prose .case-study strong,
 .case-study strong {
   color: #ffffff;
   font-weight: 700;
